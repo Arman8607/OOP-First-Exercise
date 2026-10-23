@@ -12,3 +12,10 @@ public class Main {
                System.out.println("\n=== Testing Withdrawal ===");
         account.withdraw(2000);
         account.withdraw(300);
+         
+               System.out.println("\n=== Final Account Information ===");
+        account.displayAccountInfo();
+    }
+ }
+          
+        
