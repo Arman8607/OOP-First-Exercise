@@ -48,3 +48,9 @@ public class BankAccount {
             System.out.println("Withdrawal successful.");
         }
     }
+              public void displayAccountInfo() {
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Owner Name: " + ownerName);
+        System.out.println("Balance: $" + balance);
+    }
+}
