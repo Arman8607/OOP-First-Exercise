@@ -4,3 +4,7 @@ public class Main {
 
              System.out.println("=== Initial Account Information ===");
         account.displayAccountInfo();
+         
+               System.out.println("\n=== Testing Deposit ===");
+        account.deposit(-200);
+        account.deposit(500);
