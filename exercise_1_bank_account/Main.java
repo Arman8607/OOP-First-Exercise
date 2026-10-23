@@ -8,3 +8,7 @@ public class Main {
                System.out.println("\n=== Testing Deposit ===");
         account.deposit(-200);
         account.deposit(500);
+             
+               System.out.println("\n=== Testing Withdrawal ===");
+        account.withdraw(2000);
+        account.withdraw(300);
