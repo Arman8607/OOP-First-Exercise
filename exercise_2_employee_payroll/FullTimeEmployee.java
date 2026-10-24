@@ -16,3 +16,7 @@
     public void setMedicalAllowance(double medicalAllowance) {
         this.medicalAllowance = medicalAllowance;
     }
+        
+          public double calculateSalary() {
+        return getBaseSalary() + bonus + medicalAllowance;
+    }
