@@ -25,4 +25,8 @@
         } else {
             System.out.println("Error: Hourly rate cannot be negative.");
         }
+    } 
+           
+            public double calculateSalary() {
+        return hoursWorked * hourlyRate;
     }
