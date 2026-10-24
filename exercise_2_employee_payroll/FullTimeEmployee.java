@@ -20,3 +20,10 @@
           public double calculateSalary() {
         return getBaseSalary() + bonus + medicalAllowance;
     }
+         
+          public void displayInfo() {
+        super.displayInfo();
+        System.out.println("Bonus: $" + bonus);
+        System.out.println("Medical Allowance: $" + medicalAllowance);
+    }
+ }
