@@ -26,3 +26,7 @@
             System.out.println("Error: Base salary cannot be negative.");
         }
     }
+            
+              public double calculateSalary() {
+        return baseSalary;
+    }
