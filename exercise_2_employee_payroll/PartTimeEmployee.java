@@ -30,3 +30,12 @@
             public double calculateSalary() {
         return hoursWorked * hourlyRate;
     }
+         
+           public void displayInfo() {
+        System.out.println("Employee ID: " + getId());
+        System.out.println("Employee Name: " + getName());
+        System.out.println("Hours Worked: " + hoursWorked);
+        System.out.println("Hourly Rate: $" + hourlyRate);
+        System.out.println("Final Salary: $" + calculateSalary());
+    }
+ }
