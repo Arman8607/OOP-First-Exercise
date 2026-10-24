@@ -30,3 +30,11 @@
               public double calculateSalary() {
         return baseSalary;
     }
+        
+          public void displayInfo() {
+        System.out.println("Employee ID: " + id);
+        System.out.println("Employee Name: " + name);
+        System.out.println("Base Salary: $" + baseSalary);
+        System.out.println("Final Salary: $" + calculateSalary());
+    }
+ } 
