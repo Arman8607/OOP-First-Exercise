@@ -6,3 +6,5 @@
         super(licensePlate, model, dailyRate);
         this.numberOfSeats = numberOfSeats;
     }
+     
+          public int getNumberOfSeats() { return numberOfSeats; }
