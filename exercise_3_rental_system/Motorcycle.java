@@ -7,3 +7,8 @@
         super(licensePlate, model, dailyRate);
         this.hasHelmetIncluded = hasHelmetIncluded;
     }
+     
+            public boolean isHelmetIncluded() { return hasHelmetIncluded; }
+    public void setHelmetIncluded(boolean hasHelmetIncluded) {
+        this.hasHelmetIncluded = hasHelmetIncluded;
+    }
