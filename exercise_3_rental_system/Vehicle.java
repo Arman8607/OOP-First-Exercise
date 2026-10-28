@@ -15,3 +15,6 @@ public class Vehicle {
     public String getModel() { return model; }
     public double getDailyRate() { return dailyRate; }
     public boolean isRented() { return isRented; }
+
+      public void rentVehicle() { isRented = true; }
+    public void returnVehicle() { isRented = false; }
