@@ -16,3 +16,6 @@
 
          System.out.println("\\n--- Available vehicles while car is rented ---");
         agency.displayAvailableVehicles();
+
+          System.out.println("\\n--- Returning the car ---");
+        agency.returnVehicle("CAR-101");
