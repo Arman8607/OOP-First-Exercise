@@ -23,3 +23,11 @@ public class Vehicle {
         if (days <= 0) return 0;
         return dailyRate * days;
     }
+        
+             public void displayDetails() {
+        System.out.println("License Plate: " + licensePlate);
+        System.out.println("Model: " + model);
+        System.out.println("Daily Rate: $" + dailyRate);
+        System.out.println("Status: " + (isRented ? "Rented" : "Available"));
+    }
+  }
