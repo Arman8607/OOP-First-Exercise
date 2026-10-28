@@ -8,3 +8,8 @@
     }
      
           public int getNumberOfSeats() { return numberOfSeats; }
+
+              public void setNumberOfSeats(int numberOfSeats) {
+        if (numberOfSeats > 0) this.numberOfSeats = numberOfSeats;
+        else System.out.println("Error: Number of seats must be positive.");
+    }
