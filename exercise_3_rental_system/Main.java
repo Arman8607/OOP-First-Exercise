@@ -13,3 +13,6 @@
 
           System.out.println("\\n--- Trying to rent the same car again ---");
         agency.rentVehicle("CAR-101", 3);
+
+         System.out.println("\\n--- Available vehicles while car is rented ---");
+        agency.displayAvailableVehicles();
