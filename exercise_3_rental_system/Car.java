@@ -13,3 +13,8 @@
         if (numberOfSeats > 0) this.numberOfSeats = numberOfSeats;
         else System.out.println("Error: Number of seats must be positive.");
     }
+
+           public double calculateRentalCost(int days) {
+        if (days <= 0) return 0;
+        return super.calculateRentalCost(days) + SERVICE_FEE;
+    }
