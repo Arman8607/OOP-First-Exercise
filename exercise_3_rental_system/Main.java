@@ -7,3 +7,6 @@
          agency.addVehicle(car);
         agency.addVehicle(motorcycle);
         agency.displayAvailableVehicles();
+
+         System.out.println("\\n--- Renting the car for 3 days ---");
+        agency.rentVehicle("CAR-101", 3);
