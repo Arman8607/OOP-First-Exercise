@@ -18,3 +18,8 @@ public class Vehicle {
 
       public void rentVehicle() { isRented = true; }
     public void returnVehicle() { isRented = false; }
+
+       public double calculateRentalCost(int days) {
+        if (days <= 0) return 0;
+        return dailyRate * days;
+    }
