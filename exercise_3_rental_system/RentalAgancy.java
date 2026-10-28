@@ -10,3 +10,16 @@ public class RentalAgency {
     }
 
          public void addVehicle(Vehicle vehicle) { fleet.add(vehicle); }
+
+            public void displayAvailableVehicles() {
+        System.out.println("\\nAvailable vehicles at " + agencyName + ":");
+        boolean found = false;
+        for (Vehicle vehicle : fleet) {
+            if (!vehicle.isRented()) {
+                vehicle.displayDetails();
+                System.out.println("--------------------");
+                found = true;
+            }
+        }
+        if (!found) System.out.println("No vehicles are currently available.");
+    }
