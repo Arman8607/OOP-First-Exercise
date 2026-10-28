@@ -46,3 +46,19 @@ public class RentalAgency {
         }
         System.out.println("Error: Vehicle with plate " + licensePlate + " was not found.");
     }
+        
+           public void returnVehicle(String licensePlate) {
+        for (Vehicle vehicle : fleet) {
+            if (vehicle.getLicensePlate().equalsIgnoreCase(licensePlate)) {
+                if (!vehicle.isRented()) {
+                    System.out.println("Error: This vehicle is not currently rented.");
+                    return;
+                }
+                vehicle.returnVehicle();
+                System.out.println(vehicle.getModel() + " has been returned successfully.");
+                return;
+            }
+        }
+        System.out.println("Error: Vehicle with plate " + licensePlate + " was not found.");
+    }
+  }
