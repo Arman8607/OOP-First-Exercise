@@ -22,3 +22,8 @@
 
           System.out.println("\\n--- Available vehicles after return ---");
         agency.displayAvailableVehicles();
+
+            System.out.println("\\n--- Motorcycle rental for 7 days ---");
+        System.out.println("Motorcycle cost: $" + motorcycle.calculateRentalCost(7));
+    }
+  } 
