@@ -18,3 +18,9 @@
         if (days <= 0) return 0;
         return super.calculateRentalCost(days) + SERVICE_FEE;
     }
+
+            public void displayDetails() {
+        super.displayDetails();
+        System.out.println("Number of Seats: " + numberOfSeats);
+    }
+  }
