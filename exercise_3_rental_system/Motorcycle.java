@@ -19,3 +19,9 @@
         if (days >= 7) total *= (1 - LONG_RENTAL_DISCOUNT);
         return total;
     }
+
+         public void displayDetails() {
+        super.displayDetails();
+        System.out.println("Helmet Included: " + hasHelmetIncluded);
+    }
+  }
