@@ -8,3 +8,5 @@ public class RentalAgency {
         this.agencyName = agencyName;
         this.fleet = new ArrayList<>();
     }
+
+         public void addVehicle(Vehicle vehicle) { fleet.add(vehicle); }
