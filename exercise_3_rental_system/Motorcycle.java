@@ -12,3 +12,10 @@
     public void setHelmetIncluded(boolean hasHelmetIncluded) {
         this.hasHelmetIncluded = hasHelmetIncluded;
     }
+
+          public double calculateRentalCost(int days) {
+        if (days <= 0) return 0;
+        double total = super.calculateRentalCost(days);
+        if (days >= 7) total *= (1 - LONG_RENTAL_DISCOUNT);
+        return total;
+    }
