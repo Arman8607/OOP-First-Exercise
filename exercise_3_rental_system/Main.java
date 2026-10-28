@@ -10,3 +10,6 @@
 
          System.out.println("\\n--- Renting the car for 3 days ---");
         agency.rentVehicle("CAR-101", 3);
+
+          System.out.println("\\n--- Trying to rent the same car again ---");
+        agency.rentVehicle("CAR-101", 3);
